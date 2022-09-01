@@ -3,7 +3,7 @@
     function connectDB() {
         try
         {
-            $bdd = new PDO('mysql:host=localhost:3307;dbname=forum;charset=utf8', 'root', 'root');
+            $bdd = new PDO('mysql:host=localhost;dbname=forum;charset=utf8', 'root', 'root');
         }
         catch(Exception $e)
         {
